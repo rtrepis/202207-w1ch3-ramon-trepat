@@ -1,13 +1,40 @@
+:root {
+  -color-corporete: #ff6600;
+}
+
 body {
   font-family: "Nunito", sans-serif;
 }
 
-section {
+section:nth-of-type(1) {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-items: center;
   align-content: flex-start;
-  height: 20vh; /*Este valor lo puedes omitir si la altura de tu componente esta definida*/
+  height: 20vh;
+}
+
+h1 {
+  color: var(-color-corporete);
+  font-size: larger;
+  margin: 0;
+}
+
+h1 + p {
+  font-size: xx-large;
+  font-weight: bold;
+  padding: 10px;
+  margin: 0;
+}
+
+h1 button {
+  border-radius: 0 15px 15px 15px;
+  padding: 10px;
+  background: var(-color-corporete);
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  border: 0;
 }
