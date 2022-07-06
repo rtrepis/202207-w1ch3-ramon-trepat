@@ -1,0 +1,13 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  height: 20vh; /*Este valor lo puedes omitir si la altura de tu componente esta definida*/
+}
