@@ -29,7 +29,7 @@ h1 + p {
   margin: 0;
 }
 
-h1 button {
+h1 ~ button {
   border-radius: 0 15px 15px 15px;
   padding: 10px;
   background: var(--color-corporete);
